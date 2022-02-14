@@ -5,7 +5,7 @@ Muito obrigado por se inscrever no Eventex.
 Estes foram os dados que você nos forneceu em sua inscrição:
 
 Nome: {{ name }}
-CPF: {{  cpf }}
+CPF: {{ cpf }}
 Email: {{ email }}
 Telefone: {{ phone }}
 
