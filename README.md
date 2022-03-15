@@ -11,7 +11,8 @@ Sistema de Eventos encomendado pela equipe Eventex.
 5. Configure a instância com o .env
 6. Execute os testes
 
-'''console
+```bash
+console
 git clone git@github.com:caionickel/eventexgit wttd
 cd wttd
 python -m venv .wttd
@@ -19,8 +20,9 @@ source . wttd/bin/activate
 pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 python manage.py test
+```
 
-'''
+
 
 ## Como fazer o deploy?
 
@@ -31,13 +33,13 @@ python manage.py test
 5. Configure o serviço de email.
 6. Envie o código para o heroku
 
-'''
+```bash
 heroku create minhainstancia
 heroku config:push
 heroku config:set SECRET_KEY='python contrib/secret_gen.py'
 heroku config:set DEBUG=False
 #configuro o email
 git push heroku master --force
-'''
+```
 
 
