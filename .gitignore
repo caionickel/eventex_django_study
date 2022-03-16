@@ -1,9 +1,11 @@
 .env
 .idea
-.wtdd
+venv
 *.sqlite3
 *pyc
-venv/*
 __pycache__
 staticfiles
 .ipynb_checkpoints/
+sqldiff.exe
+sqlite3.exe
+sqlite3_analyzer.exe
