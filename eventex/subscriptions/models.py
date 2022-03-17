@@ -3,7 +3,7 @@ from hashid_field import HashidAutoField
 
 
 class Subscription(models.Model):
-    id = HashidAutoField(primary_key=True)
+    id = HashidAutoField(allow_int_lookup=True, primary_key=True)
     name = models.CharField('nome', max_length=100)
     cpf = models.CharField('CPF', max_length=11)
     email = models.EmailField('email')

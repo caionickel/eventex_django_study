@@ -128,6 +128,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+HASHID_FIELD_SALT = 'l&8yl58@75_mq3n8usj3mk*5q7=66sbeo$yl72e8=0=+b6&q#e'
 
 # Email configuration
 
