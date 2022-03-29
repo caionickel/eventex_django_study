@@ -259,6 +259,16 @@ section header h2 {
     font-size: 16px;
 }
 
+/* SPEAKERS */
+.speakers h2 {
+    text-transform: uppercase;
+}
+
+.speakers img {
+    width: 200px;
+    border-radius: 100%;
+}
+
 /* SPONSORS */
 
 .sponsors h2,
@@ -362,7 +372,7 @@ section header h2 {
  .alert.success {
      color: #3c763d;
      background-color: #dff0d8;
-     border-color: #d0e9c6
+     border-color: #d0e9c6;
  }
 
 
