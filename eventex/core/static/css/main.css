@@ -269,6 +269,11 @@ section header h2 {
     border-radius: 100%;
 }
 
+.speakers img.photo {
+    flot: left;
+    padding-right: 15px;
+}
+
 /* SPONSORS */
 
 .sponsors h2,
